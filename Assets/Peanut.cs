@@ -17,6 +17,7 @@ public class Peanut : MonoBehaviour
     public float shotCD = 1f;
     private float lastShotTime;
     private Transform sherTransform;
+    public LayerMask deadlyLayers;
 
     void Start()
     {
